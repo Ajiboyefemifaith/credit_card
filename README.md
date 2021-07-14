@@ -31,5 +31,5 @@ https://www.kaggle.com/arjunbhasin2013/ccdata
 
 # Result
 
-The customer segmentation process was carried out using KMeans.
+The customer segmentation process was carried out using KMeans. The number of features were reduced using PCA from 18 to 2 features to enhance the performance of our clustering algorithm.
 The metrics used to determine the accuacy for this clustering analysis was Elbow method which gave a result of 3 to 4 clusters. The silhoutte method was used to confirm the optimum number of clusters to use and this yielded two. Customers therefore belong to either one of two clusters (0,1)
